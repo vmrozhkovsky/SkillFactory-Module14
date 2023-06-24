@@ -12,3 +12,4 @@ phoneBook.Add(new Contact("Иннокентий", "Смоктуновский",7
 var sortedPhoneBook = phoneBook.OrderBy(b => b.Name).ThenBy(b => b.LastName);
 foreach(var b in sortedPhoneBook)
     Console.WriteLine($"{b.Name} {b.LastName}");
+
